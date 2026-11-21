@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 230" fill="none" stroke="#000" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <g id="grape">
+      <circle r="8"/>
+      <path d="M2 4.6c1.7-.8 2.8-2.6 2.8-4.4" stroke-width=".8" opacity=".72"/>
+    </g>
+  </defs>
+
+  <!-- The vine follows the diagonal of the relief image. -->
+  <path d="M25 214c42-3 76-24 88-63 16-51 31-83 67-118 11-11 23-19 34-19 8 0 13 5 12 11-1 5-6 8-10 7-3-1-5-4-4-7" stroke-width="1.6"/>
+  <path d="M26 220c43-4 80-27 93-67 16-49 30-82 65-116 10-10 21-18 31-18" stroke-width="1.05"/>
+  <path d="M68 206c-13-6-24-16-38-17-9 0-16 5-16 11 0 5 4 8 8 7 3 0 5-3 4-6m48 3c-18-5-29-12-42-12" stroke-width="1.1"/>
+
+  <!-- Lobed grape leaves and the joining tendrils. -->
+  <path d="M145 77c-8-7-15-9-23-10-13-2-22-9-27-19 5 2 10 2 15-1-7-4-11-10-11-18 5 5 10 6 15 6-1-7 2-13 6-19 4 8 8 13 14 17 1-6 4-10 10-13 1 8 7 14 8 24 2 12-4 20-7 33Z"/>
+  <path d="M145 77c-8-14-15-28-25-50m17 37c-6-7-15-11-25-14m20 4c2-7 5-12 10-17m-17 6c-4-4-7-6-12-7" stroke-width=".9"/>
+  <path d="M105 53l6 5m0-4 7 6m17-31 4-4m-1 8 4-5m-14 39 7 3" stroke-width=".7" opacity=".6"/>
+
+  <path d="M154 85c7 3 13 4 20 2"/>
+  <path d="M174 87c2-9 5-17 12-24 8-9 16-10 24-9-3 4-4 8-3 11 6-3 13-2 19 1-4 3-6 6-5 10 5 0 10 3 13 8-7 0-11 4-17 9-7 6-15 7-24 4-8-2-14-7-19-10Z"/>
+  <path d="M174 87c15-5 29-8 49-5m-37 1c7-5 12-12 16-20m-5 18c6 3 10 6 12 12m-3-13 7-7" stroke-width=".9"/>
+  <path d="m183 80 6-7m-2 6 6-8m17 18 4 4m-1-7 6 2" stroke-width=".7" opacity=".6"/>
+
+  <path d="M129 106c-13-4-24 0-34 11-6 7-11 8-17 8m34-20c-6-7-13-10-20-9-5 1-8 6-6 10 1 3 5 3 7 1" stroke-width="1.15"/>
+  <path d="M94 117c-9-4-22-2-29 5m31-5c5 0 8 4 9 8m-17-3v5" stroke-width=".95"/>
+
+  <!-- The bunch is engraved as staggered beads. -->
+  <use href="#grape" x="60" y="134"/>
+  <use href="#grape" x="78" y="135"/>
+  <use href="#grape" x="96" y="135"/>
+  <use href="#grape" x="69" y="150"/>
+  <use href="#grape" x="87" y="151"/>
+  <use href="#grape" x="78" y="166"/>
+  <path d="M81 179c2 8 10 9 13 4 2-4-2-7-5-5m14 17 4-7m-12 15 5-8m-15 14 6-6m-17 11 5-6m-19 9 7-5m-22 7 6-4" stroke-width=".8" opacity=".74"/>
+</svg>

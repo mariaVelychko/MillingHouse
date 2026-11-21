@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" preserveAspectRatio="none" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round">
+  <style>path { vector-effect: non-scaling-stroke; }</style>
+  <defs>
+    <path id="sweep" d="M718-16C625 22 541 94 487 169c-39 54-62 101-76 163"/>
+  </defs>
+
+  <!-- Parallel guides meet the curved edge of the workbench image. -->
+  <path d="M0 32h1200M0 288h1200" opacity=".66"/>
+  <path d="M48 24v17m0 238v18M48 42h493M48 280h387" opacity=".51"/>
+  <use href="#sweep"/>
+  <use href="#sweep" transform="translate(-15)" opacity=".55"/>
+
+  <g opacity=".84">
+    <path d="M486 77h175m-143-4v8m16-7v6m16-6v6m16-6v6m16-7v8m16-7v6m16-6v6m16-6v6m16-7v8"/>
+    <path d="M444 169h107m-67 4 6-8m31-2v12"/>
+    <path d="M487 179v101m-43-111v36" stroke-dasharray="4 5" opacity=".56"/>
+  </g>
+</svg>

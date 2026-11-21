@@ -1,0 +1,471 @@
+{
+  "media": {
+    "cross-rounded": {
+      "src": "assets/img/products/cross-rounded.webp",
+      "small": "assets/img/products/cross-rounded-640.webp",
+      "width": 1120,
+      "height": 1120,
+      "card": {
+        "src": "assets/img/products/cards/cross-rounded.webp",
+        "small": "assets/img/products/cards/cross-rounded-640.webp",
+        "width": 1400,
+        "height": 1120
+      },
+      "alt": "Дерев’яне розп’яття із заокругленими кінцями",
+      "status": "demo",
+      "imageSource": "OpenAI ImageGen"
+    },
+    "cross-rounded-detail": {
+      "from": "cross-rounded",
+      "alt": "Фрагмент різьблення. Дерев’яне розп’яття із заокругленими кінцями",
+      "detail": {
+        "scale": 2.1,
+        "position": "55% 38%"
+      }
+    },
+    "cross-circle": {
+      "src": "assets/img/products/cross-circle.webp",
+      "small": "assets/img/products/cross-circle-640.webp",
+      "width": 1120,
+      "height": 1120,
+      "card": {
+        "src": "assets/img/products/cards/cross-circle.webp",
+        "small": "assets/img/products/cards/cross-circle-640.webp",
+        "width": 1400,
+        "height": 1120
+      },
+      "alt": "Дерев’яне розп’яття з кільцем за поперечиною",
+      "status": "demo",
+      "imageSource": "OpenAI ImageGen"
+    },
+    "cross-circle-detail": {
+      "from": "cross-circle",
+      "alt": "Фрагмент різьблення. Дерев’яне розп’яття з кільцем за поперечиною",
+      "detail": {
+        "scale": 2.1,
+        "position": "53% 38%"
+      }
+    },
+    "cross-shaped": {
+      "src": "assets/img/products/cross-shaped.webp",
+      "small": "assets/img/products/cross-shaped-640.webp",
+      "width": 1120,
+      "height": 1120,
+      "card": {
+        "src": "assets/img/products/cards/cross-shaped.webp",
+        "small": "assets/img/products/cards/cross-shaped-640.webp",
+        "width": 1400,
+        "height": 1120
+      },
+      "alt": "Дерев’яне розп’яття з гранованими кінцями",
+      "status": "demo",
+      "imageSource": "OpenAI ImageGen"
+    },
+    "cross-shaped-detail": {
+      "from": "cross-shaped",
+      "alt": "Фрагмент різьблення. Дерев’яне розп’яття з гранованими кінцями",
+      "detail": {
+        "scale": 2.1,
+        "position": "53% 38%"
+      }
+    },
+    "calvary": {
+      "src": "assets/img/products/calvary.webp",
+      "small": "assets/img/products/calvary-640.webp",
+      "width": 1120,
+      "height": 1120,
+      "card": {
+        "src": "assets/img/products/cards/calvary.webp",
+        "small": "assets/img/products/cards/calvary-640.webp",
+        "width": 1400,
+        "height": 1120
+      },
+      "alt": "Голгофа з розп’яттям і двома постатями біля підніжжя",
+      "status": "demo",
+      "imageSource": "OpenAI ImageGen"
+    },
+    "calvary-detail": {
+      "from": "calvary",
+      "alt": "Фрагмент різьблення. Голгофа з розп’яттям і двома постатями біля підніжжя",
+      "detail": {
+        "scale": 2.1,
+        "position": "53% 69%"
+      }
+    },
+    "supper-wide": {
+      "src": "assets/img/products/supper-wide.webp",
+      "small": "assets/img/products/supper-wide-640.webp",
+      "width": 1120,
+      "height": 1120,
+      "card": {
+        "src": "assets/img/products/cards/supper-wide.webp",
+        "small": "assets/img/products/cards/supper-wide-640.webp",
+        "width": 1120,
+        "height": 896
+      },
+      "alt": "Різьблена сцена Таємної вечері на прямокутному панно",
+      "status": "demo",
+      "imageSource": "OpenAI ImageGen"
+    },
+    "supper-wide-detail": {
+      "from": "supper-wide",
+      "alt": "Фрагмент різьблення. Різьблена сцена Таємної вечері на прямокутному панно",
+      "detail": {
+        "scale": 2.1,
+        "position": "52% 53%"
+      }
+    },
+    "category-crosses": {
+      "src": "assets/img/editorial/categories/crosses.webp",
+      "small": "assets/img/editorial/categories/crosses-640.webp",
+      "width": 904,
+      "height": 1344,
+      "alt": "Дерев’яне розп’яття із заокругленими кінцями"
+    },
+    "category-calvaries": {
+      "src": "assets/img/editorial/categories/calvaries.webp",
+      "small": "assets/img/editorial/categories/calvaries-640.webp",
+      "width": 864,
+      "height": 1296,
+      "alt": "Різьблена Голгофа з трьома постатями"
+    },
+    "category-panels": {
+      "src": "assets/img/editorial/categories/panels.webp",
+      "width": 468,
+      "height": 702,
+      "alt": "Фрагмент дерев’яного панно із сюжетом Таємної вечері"
+    },
+    "home-hero": {
+      "src": "assets/img/editorial/hero.webp",
+      "small": "assets/img/editorial/hero-640.webp",
+      "width": 1440,
+      "height": 960,
+      "alt": "Дерев’яне розп’яття на темній поверхні",
+      "caption": "Рельєф дерев’яного розп’яття",
+      "status": "demo",
+      "imageSource": "OpenAI ImageGen"
+    },
+    "workshop": {
+      "src": "assets/img/workshop/workshop.webp",
+      "small": "assets/img/workshop/workshop-640.webp",
+      "width": 1440,
+      "height": 960,
+      "alt": "Два деревообробні верстати з ЧПК і дерев’яні заготовки в цеху",
+      "caption": "Деревообробний цех",
+      "status": "demo",
+      "imageSource": "OpenAI ImageGen"
+    },
+    "cnc-carving": {
+      "src": "assets/img/workshop/cnc-carving.webp",
+      "small": "assets/img/workshop/cnc-carving-640.webp",
+      "width": 1440,
+      "height": 960,
+      "alt": "Фреза верстата з ЧПК над рослинним рельєфом у дерев’яній заготовці",
+      "caption": "Фрезерування рельєфу",
+      "status": "demo",
+      "imageSource": "OpenAI ImageGen"
+    },
+    "relief-modeling": {
+      "src": "assets/img/workshop/relief-modeling.webp",
+      "small": "assets/img/workshop/relief-modeling-640.webp",
+      "width": 1440,
+      "height": 960,
+      "alt": "Тривимірна модель орнаменту на моніторі, ескіз і зразок рельєфу на столі",
+      "caption": "Ескіз і цифрова модель",
+      "status": "demo",
+      "imageSource": "OpenAI ImageGen"
+    },
+    "surface-finishing": {
+      "src": "assets/img/workshop/surface-finishing.webp",
+      "small": "assets/img/workshop/surface-finishing-640.webp",
+      "width": 1440,
+      "height": 960,
+      "alt": "Майстер змітає щіткою пил із вирізьбленої поверхні",
+      "caption": "Огляд поверхні після різьблення",
+      "status": "demo",
+      "imageSource": "OpenAI ImageGen"
+    }
+  },
+  "site": {
+    "heroImage": "home-hero",
+    "productionImage": "cnc-carving",
+    "productionInset": "relief-modeling",
+    "projectWorkSlug": "vecheria-u-reliefi",
+    "aboutImage": "workshop",
+    "featuredWorkSlugs": [
+      "vecheria-u-reliefi",
+      "khrest-iz-kiltsem",
+      "try-postati-holhofy"
+    ],
+    "portfolioFeature": [
+      {
+        "slug": "vecheria-u-reliefi",
+        "frame": 1
+      },
+      {
+        "slug": "khrest-iz-kiltsem",
+        "frame": 0,
+        "tone": "light"
+      },
+      {
+        "slug": "try-postati-holhofy",
+        "frame": 0,
+        "tone": "light"
+      },
+      {
+        "slug": "hranovanyi-khrest",
+        "frame": 1
+      },
+      {
+        "slug": "zaokruhlyi-kontur",
+        "frame": 1
+      },
+      {
+        "slug": "vecheria-kompaktnyi-format",
+        "frame": 0
+      },
+      {
+        "slug": "holhofa-fihurnyi-kontur",
+        "frame": 1
+      }
+    ],
+    "selectedProductSlugs": [
+      "khrest-zaokruhlenyi-50",
+      "taiemna-vecheria-76",
+      "khrest-vosmyhrannyi-40",
+      "holhofa-55"
+    ],
+    "aboutImageIds": [
+      "relief-modeling",
+      "cnc-carving",
+      "surface-finishing"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-1",
+      "slug": "vecheria-u-reliefi",
+      "title": "Таємна вечеря в рельєфі",
+      "category": "panno",
+      "material": "wood",
+      "form": "rectangular",
+      "description": "Горизонтальний формат дає змогу розташувати всі постаті в одній сцені. Композиція зосереджена навколо Христа за столом.",
+      "images": [
+        "supper-wide",
+        "supper-wide-detail"
+      ],
+      "relatedProductSlugs": [
+        "taiemna-vecheria-76"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295272666405",
+      "dataStatus": "demo-example",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "work-2",
+      "slug": "khrest-iz-kiltsem",
+      "title": "Розп’яття з кільцем",
+      "category": "khresty",
+      "material": "wood",
+      "form": "circle",
+      "description": "Кільце з’єднує вертикаль і поперечину хреста. У центрі композиції розташована різьблена постать Христа.",
+      "images": [
+        "cross-circle",
+        "cross-circle-detail"
+      ],
+      "relatedProductSlugs": [
+        "khrest-iz-kiltsem-50"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295231831750",
+      "dataStatus": "demo-example",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "work-3",
+      "slug": "try-postati-holhofy",
+      "title": "Три постаті Голгофи",
+      "category": "holhofy",
+      "material": "wood",
+      "description": "Богородиця й апостол Іван розташовані обабіч розп’яття. Погляд зосереджується на центральній постаті Христа.",
+      "images": [
+        "calvary",
+        "calvary-detail"
+      ],
+      "relatedProductSlugs": [
+        "holhofa-55"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295274709394",
+      "dataStatus": "demo-example",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "work-4",
+      "slug": "zaokruhlyi-kontur",
+      "title": "Хрест із заокругленим контуром",
+      "category": "khresty",
+      "material": "wood",
+      "form": "rounded",
+      "description": "Заокруглення на кінцях пом’якшують контур хреста. Різьблена постать Христа повторює його вертикаль.",
+      "images": [
+        "cross-rounded",
+        "cross-rounded-detail"
+      ],
+      "relatedProductSlugs": [
+        "khrest-zaokruhlenyi-50"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295231837021",
+      "dataStatus": "demo-example",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "work-5",
+      "slug": "hranovanyi-khrest",
+      "title": "Гранований силует хреста",
+      "category": "khresty",
+      "material": "wood",
+      "form": "faceted",
+      "description": "Грані підкреслюють обриси хреста. На перетині двох осей силует обрамлює постать Христа.",
+      "images": [
+        "cross-shaped",
+        "cross-shaped-detail"
+      ],
+      "relatedProductSlugs": [
+        "khrest-vosmyhrannyi-40"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295231784007",
+      "dataStatus": "demo-example",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "work-6",
+      "slug": "vecheria-kompaktnyi-format",
+      "title": "Таємна вечеря в компактному форматі",
+      "category": "panno",
+      "material": "wood",
+      "form": "rectangular",
+      "description": "Менше панно зберігає горизонтальну композицію сцени з Христом і апостолами.",
+      "images": [
+        "supper-wide",
+        "supper-wide-detail"
+      ],
+      "relatedProductSlugs": [
+        "taiemna-vecheria-38"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295296711639",
+      "dataStatus": "demo-example",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "work-7",
+      "slug": "fihurnyi-khrest",
+      "title": "Фігурний контур розп’яття",
+      "category": "khresty",
+      "material": "wood",
+      "form": "shaped",
+      "description": "Профіль дерев’яного хреста обрамлює фігуру Христа й визначає загальний силует виробу.",
+      "images": [
+        "cross-shaped",
+        "cross-shaped-detail"
+      ],
+      "relatedProductSlugs": [
+        "khrest-fihurnyi-50"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295231812763",
+      "dataStatus": "demo-example",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "work-8",
+      "slug": "holhofa-fihurnyi-kontur",
+      "title": "Голгофа з фігурним хрестом",
+      "category": "holhofy",
+      "material": "wood",
+      "form": "shaped",
+      "description": "Фігурний хрест утворює вертикаль композиції. Постаті Богородиці та апостола Івана доповнюють сцену.",
+      "images": [
+        "calvary",
+        "calvary-detail"
+      ],
+      "relatedProductSlugs": [
+        "holhofa-fihurna-55"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295274907920",
+      "dataStatus": "demo-example",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "work-9",
+      "slug": "kruhla-kompozytsiia-vecheri",
+      "title": "Таємна вечеря в круглому панно",
+      "category": "panno",
+      "material": "wood",
+      "form": "round",
+      "description": "Круглий формат обрамлює горизонтальну сцену з Христом та апостолами.",
+      "images": [],
+      "relatedProductSlugs": [
+        "taiemna-vecheria-kruhla-50"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295296725510",
+      "dataStatus": "demo-example",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "work-10",
+      "slug": "rozpiattia-kompaktnyi-format",
+      "title": "Розп’яття з кільцем у малому форматі",
+      "category": "khresty",
+      "material": "wood",
+      "form": "circle",
+      "description": "Кільце й постать Христа формують композицію меншого дерев’яного розп’яття.",
+      "images": [
+        "cross-circle",
+        "cross-circle-detail"
+      ],
+      "relatedProductSlugs": [
+        "khrest-iz-kiltsem-30"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295231829099",
+      "dataStatus": "demo-example",
+      "verifiedAt": "2026-11-14"
+    }
+  ],
+  "taxonomy": {
+    "forms": {
+      "circle": "З кільцем",
+      "rounded": "Заокруглена",
+      "faceted": "Восьмигранна",
+      "shaped": "Фігурна",
+      "round": "Кругла",
+      "rectangular": "Прямокутна"
+    },
+    "materials": {
+      "wood": "Дерево",
+      "plastic": "Пластик",
+      "metal": "Метал"
+    },
+    "sizes": [
+      {
+        "id": "under-20",
+        "label": "До 20 см",
+        "max": 19.9
+      },
+      {
+        "id": "20-to-29",
+        "label": "Від 20 до 29,9 см",
+        "min": 20,
+        "max": 29.9
+      },
+      {
+        "id": "30-to-39",
+        "label": "Від 30 до 39,9 см",
+        "min": 30,
+        "max": 39.9
+      },
+      {
+        "id": "40-and-up",
+        "label": "Від 40 см",
+        "min": 40
+      }
+    ]
+  }
+}

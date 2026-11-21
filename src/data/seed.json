@@ -1,0 +1,429 @@
+{
+  "categories": [
+    {
+      "id": "khresty",
+      "title": "Хрести",
+      "singular": "Хрест",
+      "image": "cross-circle",
+      "editorialImage": "category-crosses",
+      "icon": "cross",
+      "searchTerms": [
+        "розп’яття",
+        "розпяття",
+        "crucifix",
+        "cross"
+      ]
+    },
+    {
+      "id": "holhofy",
+      "title": "Голгофи",
+      "singular": "Голгофа",
+      "image": "calvary",
+      "editorialImage": "category-calvaries",
+      "icon": "calvary",
+      "searchTerms": [
+        "розп’яття",
+        "голгота",
+        "calvary",
+        "golgotha"
+      ]
+    },
+    {
+      "id": "panno",
+      "title": "Різьблені панно",
+      "singular": "Різьблене панно",
+      "image": "supper-wide",
+      "editorialImage": "category-panels",
+      "icon": "panel",
+      "searchTerms": [
+        "панно",
+        "рельєф",
+        "барельєф",
+        "panel"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "295231831750",
+      "slug": "khrest-iz-kiltsem-50",
+      "title": "Розп’яття з кільцем",
+      "category": "khresty",
+      "material": "wood",
+      "form": "circle",
+      "sizeInches": 19.69,
+      "description": "Дерев’яне розп’яття з кільцем за поперечиною.",
+      "images": [
+        "cross-circle",
+        "cross-circle-detail"
+      ],
+      "price": {
+        "amount": 69,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295231831750",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14",
+      "relatedWorkSlugs": [
+        "khrest-iz-kiltsem"
+      ]
+    },
+    {
+      "id": "295272666405",
+      "slug": "taiemna-vecheria-76",
+      "title": "Панно «Таємна вечеря»",
+      "category": "panno",
+      "material": "wood",
+      "form": "rectangular",
+      "sizeInches": 29.8,
+      "description": "Дерев’яний рельєф із зображенням Христа та апостолів за спільним столом.",
+      "images": [
+        "supper-wide",
+        "supper-wide-detail"
+      ],
+      "price": {
+        "amount": 259,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295272666405",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14",
+      "relatedWorkSlugs": [
+        "vecheria-u-reliefi"
+      ]
+    },
+    {
+      "id": "295274709394",
+      "slug": "holhofa-55",
+      "title": "Голгофа з дерева",
+      "category": "holhofy",
+      "material": "wood",
+      "sizeInches": 21.65,
+      "description": "Різьблена композиція з розп’яттям Христа, Богородицею та апостолом Іваном.",
+      "images": [
+        "calvary",
+        "calvary-detail"
+      ],
+      "price": {
+        "amount": 169,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295274709394",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14",
+      "relatedWorkSlugs": [
+        "try-postati-holhofy"
+      ]
+    },
+    {
+      "id": "295231837021",
+      "slug": "khrest-zaokruhlenyi-50",
+      "title": "Розп’яття із заокругленими кінцями",
+      "category": "khresty",
+      "material": "wood",
+      "form": "rounded",
+      "sizeInches": 19.69,
+      "description": "Дерев’яний хрест із різьбленою постаттю Христа й заокругленими кінцями.",
+      "images": [
+        "cross-rounded",
+        "cross-rounded-detail"
+      ],
+      "price": {
+        "amount": 119,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295231837021",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14",
+      "relatedWorkSlugs": [
+        "zaokruhlyi-kontur"
+      ]
+    },
+    {
+      "id": "295231784007",
+      "slug": "khrest-vosmyhrannyi-40",
+      "title": "Восьмигранне розп’яття",
+      "category": "khresty",
+      "material": "wood",
+      "form": "faceted",
+      "sizeInches": 15.75,
+      "description": "Дерев’яне розп’яття з гранованим контуром.",
+      "images": [
+        "cross-shaped",
+        "cross-shaped-detail"
+      ],
+      "price": {
+        "amount": 61,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295231784007",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14",
+      "relatedWorkSlugs": [
+        "hranovanyi-khrest"
+      ]
+    },
+    {
+      "id": "295296711639",
+      "slug": "taiemna-vecheria-38",
+      "title": "Панно «Таємна вечеря»",
+      "category": "panno",
+      "material": "wood",
+      "form": "rectangular",
+      "sizeInches": 14.96,
+      "description": "Різьблене панно зі сценою Таємної вечері в обрамленні.",
+      "images": [
+        "supper-wide",
+        "supper-wide-detail"
+      ],
+      "price": {
+        "amount": 179,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295296711639",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14",
+      "relatedWorkSlugs": [
+        "vecheria-kompaktnyi-format"
+      ]
+    },
+    {
+      "id": "295231812763",
+      "slug": "khrest-fihurnyi-50",
+      "title": "Фігурне розп’яття",
+      "category": "khresty",
+      "material": "wood",
+      "form": "shaped",
+      "sizeInches": 19.69,
+      "description": "Дерев’яне розп’яття з фігурним контуром хреста.",
+      "images": [
+        "cross-shaped",
+        "cross-shaped-detail"
+      ],
+      "price": {
+        "amount": 79,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295231812763",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14",
+      "relatedWorkSlugs": [
+        "fihurnyi-khrest"
+      ]
+    },
+    {
+      "id": "295274907920",
+      "slug": "holhofa-fihurna-55",
+      "title": "Фігурна Голгофа",
+      "category": "holhofy",
+      "material": "wood",
+      "form": "shaped",
+      "sizeInches": 21.65,
+      "description": "Композиція з фігурним хрестом, Богородицею та апостолом Іваном.",
+      "images": [
+        "calvary",
+        "calvary-detail"
+      ],
+      "price": {
+        "amount": 169,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295274907920",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14",
+      "relatedWorkSlugs": [
+        "holhofa-fihurnyi-kontur"
+      ]
+    },
+    {
+      "id": "295296725510",
+      "slug": "taiemna-vecheria-kruhla-50",
+      "title": "Кругле панно «Таємна вечеря»",
+      "category": "panno",
+      "material": "wood",
+      "form": "round",
+      "sizeInches": 19.69,
+      "description": "Христос і апостоли за столом у композиції круглого дерев’яного панно.",
+      "images": [],
+      "price": {
+        "amount": 189,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295296725510",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14",
+      "relatedWorkSlugs": [
+        "kruhla-kompozytsiia-vecheri"
+      ]
+    },
+    {
+      "id": "295231829885",
+      "slug": "khrest-iz-kiltsem-40",
+      "title": "Розп’яття з кільцем",
+      "category": "khresty",
+      "material": "wood",
+      "form": "circle",
+      "sizeInches": 15.75,
+      "description": "Різьблене розп’яття з кільцем і постаттю Христа.",
+      "images": [
+        "cross-circle",
+        "cross-circle-detail"
+      ],
+      "price": {
+        "amount": 57,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295231829885",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "295275033359",
+      "slug": "holhofa-zaokruhlena-55",
+      "title": "Голгофа із заокругленим хрестом",
+      "category": "holhofy",
+      "material": "wood",
+      "form": "rounded",
+      "sizeInches": 21.65,
+      "description": "Дерев’яна Голгофа з постатями Христа, Богородиці й апостола Івана.",
+      "images": [
+        "calvary",
+        "calvary-detail"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295275033359",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "295296746213",
+      "slug": "sviata-rodyna-80",
+      "title": "Панно «Свята Родина»",
+      "category": "panno",
+      "material": "wood",
+      "sizeInches": 31.5,
+      "description": "Дерев’яне різьблене панно з Марією, Йосипом і малим Ісусом.",
+      "images": [],
+      "price": {
+        "amount": 249,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295296746213",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "295231766590",
+      "slug": "khrest-vosmyhrannyi-50",
+      "title": "Восьмигранне розп’яття",
+      "category": "khresty",
+      "material": "wood",
+      "form": "faceted",
+      "sizeInches": 19.69,
+      "description": "Розп’яття Христа на дерев’яному хресті з гранованими кінцями.",
+      "images": [
+        "cross-shaped",
+        "cross-shaped-detail"
+      ],
+      "price": {
+        "amount": 79,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295231766590",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "295275046507",
+      "slug": "holhofa-iz-kiltsem-55",
+      "title": "Голгофа з кільцем",
+      "category": "holhofy",
+      "material": "wood",
+      "form": "circle",
+      "sizeInches": 21.65,
+      "description": "Дерев’яна композиція Голгофи з кільцем на хресті, Богородицею й апостолом Іваном.",
+      "images": [
+        "calvary",
+        "calvary-detail"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295275046507",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "295296723717",
+      "slug": "taiemna-vecheria-kruhla-32",
+      "title": "Кругле панно «Таємна вечеря»",
+      "category": "panno",
+      "material": "wood",
+      "form": "round",
+      "sizeInches": 12.6,
+      "description": "Кругле дерев’яне панно, на якому зображено Таємну вечерю.",
+      "images": [],
+      "price": {
+        "amount": 149,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295296723717",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "295231829099",
+      "slug": "khrest-iz-kiltsem-30",
+      "title": "Розп’яття з кільцем",
+      "category": "khresty",
+      "material": "wood",
+      "form": "circle",
+      "sizeInches": 11.81,
+      "description": "Дерев’яне розп’яття з кільцем у компактному форматі.",
+      "images": [
+        "cross-circle",
+        "cross-circle-detail"
+      ],
+      "price": {
+        "amount": 89,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.ebay.com/itm/295231829099",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14",
+      "relatedWorkSlugs": [
+        "rozpiattia-kompaktnyi-format"
+      ]
+    },
+    {
+      "id": "295231813865",
+      "slug": "khrest-fihurnyi-40",
+      "title": "Фігурне розп’яття",
+      "category": "khresty",
+      "material": "wood",
+      "form": "shaped",
+      "sizeInches": 15.75,
+      "description": "Хрест із дерева з фігурним контуром і постаттю Христа.",
+      "images": [
+        "cross-shaped",
+        "cross-shaped-detail"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295231813865",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "295231837833",
+      "slug": "khrest-zaokruhlenyi-40",
+      "title": "Розп’яття із заокругленими кінцями",
+      "category": "khresty",
+      "material": "wood",
+      "form": "rounded",
+      "sizeInches": 15.75,
+      "description": "Дерев’яне розп’яття із заокругленим силуетом.",
+      "images": [
+        "cross-rounded",
+        "cross-rounded-detail"
+      ],
+      "sourceUrl": "https://www.ebay.com/itm/295231837833",
+      "dataStatus": "verified-listing",
+      "verifiedAt": "2026-11-14"
+    }
+  ]
+}

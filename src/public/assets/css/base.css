@@ -1,0 +1,143 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--mh-ivory);
+  color: var(--mh-chocolate);
+  font: 400 1rem/1.62 var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+h1, h2, h3, p, figure {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+  line-height: 1.14;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(2rem, 1.45rem + 1.45vw, 3rem);
+  letter-spacing: -.027em;
+}
+
+h2 {
+  font-size: clamp(1.68rem, 1.42rem + .7vw, 2.25rem);
+  letter-spacing: -.02em;
+}
+
+h3 {
+  font-size: clamp(1.25rem, 1.1rem + .4vw, 1.6rem);
+  letter-spacing: -.015em;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: .2em;
+}
+
+button, input, select, textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button, select, summary {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+  height: auto;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+:focus-visible {
+  outline: 2px solid var(--mh-walnut);
+  outline-offset: 4px;
+}
+
+.sr-only, .skip-link:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.skip-link:focus {
+  position: fixed;
+  z-index: 4;
+  inset: 12px auto auto 12px;
+  padding: 12px 18px;
+  background: var(--mh-chocolate);
+  color: var(--mh-ivory);
+}
+
+:where(section[id], #archive-results, #inquiry) {
+  scroll-margin-block-start: 22px;
+}
+
+.lead {
+  color: var(--mh-walnut);
+  font-size: clamp(1rem, .94rem + .25vw, 1.125rem);
+  max-inline-size: 62ch;
+}
+
+.meta {
+  color: var(--mh-walnut);
+  font-size: .875rem;
+  line-height: 1.45;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: var(--mh-walnut);
+  font-size: .8125rem;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 24px;
+  height: 1px;
+  background: var(--mh-wood);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354 206" fill="none" stroke="#000" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <pattern id="stock-hatch" width="7" height="7" patternUnits="userSpaceOnUse">
+      <path d="M-2 2l4-4M0 7l7-7m-2 9 4-4" stroke-width=".8" opacity=".44"/>
+    </pattern>
+  </defs>
+
+  <!-- Spindle, collet, and flutes. -->
+  <g>
+    <ellipse cx="205" cy="25" rx="27" ry="8"/>
+    <ellipse cx="205" cy="25" rx="20" ry="4" stroke-width=".95" opacity=".66"/>
+    <path d="M178 25v43c0 4.4 12.1 8 27 8s27-3.6 27-8V25"/>
+    <path d="M178 36c0 4.4 12.1 8 27 8s27-3.6 27-8m-54 23c0 4.4 12.1 8 27 8s27-3.6 27-8" stroke-width="1.1"/>
+    <path d="M184 44v16m5-13v15m33-16v16m5-18v16" stroke-width=".9" opacity=".63"/>
+    <path d="M185 74v8l8 13c1.8 2.6 6 4 12 4s10.2-1.4 12-4l8-13v-8m-40 8c1 4 10 7 20 7s19-3 20-7"/>
+    <path d="M200 99v32c0 3 2 4 5 4s5-1 5-4V99m-10 13 10-6m-10 14 10-6m-10 14 10-6" stroke-width="1.2"/>
+  </g>
+
+  <!-- Workpiece with a hatched exposed edge. -->
+  <path d="M42 141v11l144 40 144-44v-11l-144 44Z" fill="url(#stock-hatch)"/>
+  <path d="m42 141 142-41 11 3m20 5 115 29m-144 44v11"/>
+  <path d="m55 150 118 33m25 2 119-36" stroke-width=".85" opacity=".59"/>
+
+  <!-- Concentric toolpaths around the cutting axis. -->
+  <g transform="translate(201 139) rotate(-12)" stroke-width="1.05">
+    <path d="M-76 0c0-11 34-20 76-20s76 9 76 20-34 20-76 20S-76 11-76 0Z" opacity=".69"/>
+    <path d="M-64 0c0-9 29-16 64-16S64-9 64 0 35 16 0 16-64 9-64 0Zm13 0c0-7 23-12 51-12S51-7 51 0 28 12 0 12-51 7-51 0Z" opacity=".83"/>
+    <path d="M-37 0c0-4 17-8 37-8s37 4 37 8-17 8-37 8-37-4-37-8Z" stroke-dasharray="5 3" opacity=".72"/>
+    <path d="M-86-4v8m-4-4h8m164 0h8m-4-4v8" opacity=".63"/>
+  </g>
+
+  <!-- Centerline, projection marks, and workpiece datums. -->
+  <g stroke-width="1" opacity=".6">
+    <path d="M205 7v8m0 122v17m-9-15h18" stroke-dasharray="4 3"/>
+    <path d="M242 25h13m-14 44h14m-6-48v52m-3-45 6-6m-6 50 6-6"/>
+    <path d="m33 134-12-3 149-43 11 3m-151 37 5 5m131-47 7 5"/>
+    <path d="M45 166v11m141 20v7m-144-32 147 41" opacity=".72"/>
+  </g>
+</svg>

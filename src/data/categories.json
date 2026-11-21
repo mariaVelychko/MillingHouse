@@ -1,0 +1,12 @@
+[
+  { "slug": "tserkovni-vyroby", "title": "Церковні вироби", "singular": "Церковний виріб", "icon": "cross",
+    "searchTerms": ["хрест", "розп’яття", "розпяття", "голгофа", "церковні", "church"] },
+  { "slug": "panno", "title": "Різьблені панно", "singular": "Різьблене панно", "icon": "panel",
+    "searchTerms": ["панно", "рельєф", "барельєф", "різьба", "panel"] },
+  { "slug": "lampy", "title": "Лампи", "singular": "Лампа", "icon": "star",
+    "searchTerms": ["лампа", "світильник", "люстра", "освітлення", "lamp", "light"] },
+  { "slug": "igrashky", "title": "Іграшки", "singular": "Іграшка", "icon": "wood",
+    "searchTerms": ["іграшка", "іграшки", "toy"] },
+  { "slug": "zhetony", "title": "Залізні жетони", "singular": "Залізний жетон", "icon": "cnc",
+    "searchTerms": ["жетон", "жетони", "метал", "залізо", "token"] }
+]

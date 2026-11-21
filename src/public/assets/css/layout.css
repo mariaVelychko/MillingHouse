@@ -1,0 +1,139 @@
+.container {
+  width: min(100% - 2 * var(--gutter), var(--content));
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: var(--section-space);
+}
+
+.section--sand {
+  background: var(--wash);
+  border-block: 1px solid var(--line);
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  column-gap: 28px;
+  row-gap: 8px;
+  margin-block-end: clamp(20px, 2.4vw, 32px);
+}
+
+.section-heading p {
+  margin-block-start: 10px;
+  color: var(--mh-walnut);
+  max-width: 62ch;
+}
+
+.section-heading h2 {
+  text-wrap: pretty;
+}
+
+.page-intro {
+  display: grid;
+  gap: 14px;
+  padding-block: 25px clamp(28px, 4.2vw, 54px);
+}
+
+.breadcrumbs {
+  padding-block-start: 21px;
+  color: var(--mh-walnut);
+  font-size: .875rem;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 11px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs li + li::before {
+  content: "/";
+  margin-inline-end: 11px;
+  color: var(--mh-walnut);
+}
+
+.breadcrumbs a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs [aria-current] {
+  color: var(--mh-chocolate);
+  font-weight: 600;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-grid, .category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: clamp(14px, 2vw, 28px);
+}
+
+.custom-band {
+  background: var(--mh-sand);
+  border-top: 1px solid var(--line);
+}
+
+.custom-band__inner {
+  min-height: 204px;
+  padding-block: clamp(34px, 5.2vw, 75px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px 42px;
+}
+
+.custom-band h2 {
+  text-align: start;
+  text-wrap: pretty;
+}
+
+.custom-band p {
+  color: var(--mh-walnut);
+  margin-block-start: 9px;
+}
+
+@media (max-width: 700px) {
+  .breadcrumbs {
+    padding-block-start: 10px;
+  }
+
+  .page-intro {
+    padding-block-start: 14px;
+  }
+
+  .card-grid, .category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 479px) {
+  .section-heading > .text-link {
+    margin-block-end: -7px;
+  }
+
+  .category-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
