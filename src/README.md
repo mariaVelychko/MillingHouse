@@ -20,6 +20,8 @@ Node.js + Express + **PostgreSQL** + **Prisma**.
 - `lib/prisma.js` — клієнт Prisma
 - `services/catalogService.js` — робота з каталогом
 - `routes/api.js` — REST API: `/api/categories`, `/api/products`, `/api/products/:slug`
-- `public/` — фронтенд прототипу
+- `routes/pages.js` — сторінки та чисті адреси: `/`, `/catalog`, `/product/:slug`, `/portfolio`, `/portfolio/:slug`, `/about`, `/contacts`, `/search`; редіректи зі старих `.html`
+- `views/` — шаблони EJS: `partials/` (head, sprite, header, footer) і `pages/` (по одному файлу на сторінку)
+- `public/` — статика: CSS, шрифти, зображення, скрипти (HTML-сторінок тут уже немає, їх замінили `views/`)
 
 Дані каталогу фронтенд отримує з `/assets/data/fixtures.js`, який генерується з БД.

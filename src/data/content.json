@@ -1,13 +1,13 @@
 {
   "media": {
     "cross-rounded": {
-      "src": "assets/img/products/cross-rounded.webp",
-      "small": "assets/img/products/cross-rounded-640.webp",
+      "src": "/assets/img/products/cross-rounded.webp",
+      "small": "/assets/img/products/cross-rounded-640.webp",
       "width": 1120,
       "height": 1120,
       "card": {
-        "src": "assets/img/products/cards/cross-rounded.webp",
-        "small": "assets/img/products/cards/cross-rounded-640.webp",
+        "src": "/assets/img/products/cards/cross-rounded.webp",
+        "small": "/assets/img/products/cards/cross-rounded-640.webp",
         "width": 1400,
         "height": 1120
       },
@@ -24,13 +24,13 @@
       }
     },
     "cross-circle": {
-      "src": "assets/img/products/cross-circle.webp",
-      "small": "assets/img/products/cross-circle-640.webp",
+      "src": "/assets/img/products/cross-circle.webp",
+      "small": "/assets/img/products/cross-circle-640.webp",
       "width": 1120,
       "height": 1120,
       "card": {
-        "src": "assets/img/products/cards/cross-circle.webp",
-        "small": "assets/img/products/cards/cross-circle-640.webp",
+        "src": "/assets/img/products/cards/cross-circle.webp",
+        "small": "/assets/img/products/cards/cross-circle-640.webp",
         "width": 1400,
         "height": 1120
       },
@@ -47,13 +47,13 @@
       }
     },
     "cross-shaped": {
-      "src": "assets/img/products/cross-shaped.webp",
-      "small": "assets/img/products/cross-shaped-640.webp",
+      "src": "/assets/img/products/cross-shaped.webp",
+      "small": "/assets/img/products/cross-shaped-640.webp",
       "width": 1120,
       "height": 1120,
       "card": {
-        "src": "assets/img/products/cards/cross-shaped.webp",
-        "small": "assets/img/products/cards/cross-shaped-640.webp",
+        "src": "/assets/img/products/cards/cross-shaped.webp",
+        "small": "/assets/img/products/cards/cross-shaped-640.webp",
         "width": 1400,
         "height": 1120
       },
@@ -70,13 +70,13 @@
       }
     },
     "calvary": {
-      "src": "assets/img/products/calvary.webp",
-      "small": "assets/img/products/calvary-640.webp",
+      "src": "/assets/img/products/calvary.webp",
+      "small": "/assets/img/products/calvary-640.webp",
       "width": 1120,
       "height": 1120,
       "card": {
-        "src": "assets/img/products/cards/calvary.webp",
-        "small": "assets/img/products/cards/calvary-640.webp",
+        "src": "/assets/img/products/cards/calvary.webp",
+        "small": "/assets/img/products/cards/calvary-640.webp",
         "width": 1400,
         "height": 1120
       },
@@ -93,13 +93,13 @@
       }
     },
     "supper-wide": {
-      "src": "assets/img/products/supper-wide.webp",
-      "small": "assets/img/products/supper-wide-640.webp",
+      "src": "/assets/img/products/supper-wide.webp",
+      "small": "/assets/img/products/supper-wide-640.webp",
       "width": 1120,
       "height": 1120,
       "card": {
-        "src": "assets/img/products/cards/supper-wide.webp",
-        "small": "assets/img/products/cards/supper-wide-640.webp",
+        "src": "/assets/img/products/cards/supper-wide.webp",
+        "small": "/assets/img/products/cards/supper-wide-640.webp",
         "width": 1120,
         "height": 896
       },
@@ -116,28 +116,28 @@
       }
     },
     "category-crosses": {
-      "src": "assets/img/editorial/categories/crosses.webp",
-      "small": "assets/img/editorial/categories/crosses-640.webp",
+      "src": "/assets/img/editorial/categories/crosses.webp",
+      "small": "/assets/img/editorial/categories/crosses-640.webp",
       "width": 904,
       "height": 1344,
       "alt": "Дерев’яне розп’яття із заокругленими кінцями"
     },
     "category-calvaries": {
-      "src": "assets/img/editorial/categories/calvaries.webp",
-      "small": "assets/img/editorial/categories/calvaries-640.webp",
+      "src": "/assets/img/editorial/categories/calvaries.webp",
+      "small": "/assets/img/editorial/categories/calvaries-640.webp",
       "width": 864,
       "height": 1296,
       "alt": "Різьблена Голгофа з трьома постатями"
     },
     "category-panels": {
-      "src": "assets/img/editorial/categories/panels.webp",
+      "src": "/assets/img/editorial/categories/panels.webp",
       "width": 468,
       "height": 702,
       "alt": "Фрагмент дерев’яного панно із сюжетом Таємної вечері"
     },
     "home-hero": {
-      "src": "assets/img/editorial/hero.webp",
-      "small": "assets/img/editorial/hero-640.webp",
+      "src": "/assets/img/editorial/hero.webp",
+      "small": "/assets/img/editorial/hero-640.webp",
       "width": 1440,
       "height": 960,
       "alt": "Дерев’яне розп’яття на темній поверхні",
@@ -146,8 +146,8 @@
       "imageSource": "OpenAI ImageGen"
     },
     "workshop": {
-      "src": "assets/img/workshop/workshop.webp",
-      "small": "assets/img/workshop/workshop-640.webp",
+      "src": "/assets/img/workshop/workshop.webp",
+      "small": "/assets/img/workshop/workshop-640.webp",
       "width": 1440,
       "height": 960,
       "alt": "Два деревообробні верстати з ЧПК і дерев’яні заготовки в цеху",
@@ -156,8 +156,8 @@
       "imageSource": "OpenAI ImageGen"
     },
     "cnc-carving": {
-      "src": "assets/img/workshop/cnc-carving.webp",
-      "small": "assets/img/workshop/cnc-carving-640.webp",
+      "src": "/assets/img/workshop/cnc-carving.webp",
+      "small": "/assets/img/workshop/cnc-carving-640.webp",
       "width": 1440,
       "height": 960,
       "alt": "Фреза верстата з ЧПК над рослинним рельєфом у дерев’яній заготовці",
@@ -166,8 +166,8 @@
       "imageSource": "OpenAI ImageGen"
     },
     "relief-modeling": {
-      "src": "assets/img/workshop/relief-modeling.webp",
-      "small": "assets/img/workshop/relief-modeling-640.webp",
+      "src": "/assets/img/workshop/relief-modeling.webp",
+      "small": "/assets/img/workshop/relief-modeling-640.webp",
       "width": 1440,
       "height": 960,
       "alt": "Тривимірна модель орнаменту на моніторі, ескіз і зразок рельєфу на столі",
@@ -176,8 +176,8 @@
       "imageSource": "OpenAI ImageGen"
     },
     "surface-finishing": {
-      "src": "assets/img/workshop/surface-finishing.webp",
-      "small": "assets/img/workshop/surface-finishing-640.webp",
+      "src": "/assets/img/workshop/surface-finishing.webp",
+      "small": "/assets/img/workshop/surface-finishing-640.webp",
       "width": 1440,
       "height": 960,
       "alt": "Майстер змітає щіткою пил із вирізьбленої поверхні",
