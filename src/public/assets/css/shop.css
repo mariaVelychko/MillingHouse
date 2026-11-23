@@ -35,3 +35,14 @@ button.text-link:hover { color: var(--mh-burgundy); }
 .cart-summary { padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--wash); display: grid; gap: 14px; }
 .cart-summary__total { display: flex; justify-content: space-between; font-family: var(--font-title); font-size: 1.3rem; }
 .card > .card__link { min-height: 0; }
+
+/* Оформлення замовлення */
+.checkout-fields { display: grid; gap: 24px; }
+.checkout-group { display: grid; gap: 14px; margin: 0; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); }
+.checkout-group legend { padding-inline: 8px; font-family: var(--font-title); font-size: 1.15rem; }
+.choice-list { display: grid; gap: 8px; }
+.choice { display: flex; align-items: center; gap: 10px; min-height: var(--touch); cursor: pointer; }
+.choice--disabled { opacity: .55; cursor: not-allowed; }
+.checkout-lines { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.checkout-lines li { display: flex; justify-content: space-between; gap: 12px; }
+.field-error { color: var(--mh-burgundy); margin: 4px 0 0; }

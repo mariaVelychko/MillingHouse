@@ -9,6 +9,8 @@ import Work from './pages/Work.jsx';
 import About from './pages/About.jsx';
 import Contacts from './pages/Contacts.jsx';
 import Cart from './pages/Cart.jsx';
+import Checkout from './pages/Checkout.jsx';
+import OrderDone from './pages/OrderDone.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 export default function App() {
@@ -24,6 +26,8 @@ export default function App() {
         <Route path="about" element={<About />} />
         <Route path="contacts" element={<Contacts />} />
         <Route path="cart" element={<Cart />} />
+        <Route path="checkout" element={<Checkout />} />
+        <Route path="order/:number" element={<OrderDone />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

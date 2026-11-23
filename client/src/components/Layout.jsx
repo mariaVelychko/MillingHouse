@@ -15,7 +15,7 @@ const nav = [
 // Розділ, який підсвічується в меню (сторінки товару/роботи належать каталогу/портфоліо)
 function currentSection(pathname) {
   const first = pathname.split('/')[1] ?? '';
-  return ({ '': 'home', catalog: 'catalog', product: 'catalog', portfolio: 'portfolio', about: 'about', contacts: 'contacts', search: 'search', cart: 'cart' })[first];
+  return ({ '': 'home', catalog: 'catalog', product: 'catalog', portfolio: 'portfolio', about: 'about', contacts: 'contacts', search: 'search', cart: 'cart', checkout: 'cart', order: 'cart' })[first];
 }
 
 function NavLinks({ section, pathname }) {

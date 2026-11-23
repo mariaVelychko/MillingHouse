@@ -48,3 +48,36 @@ model ProductImage {
 
   @@index([productId])
 }
+
+// Замовлення. Ціни зберігаємо знімком на момент покупки (unitPriceUah),
+// щоб зміна ціни товару не змінювала старі замовлення.
+model Order {
+  id             Int         @id @default(autoincrement())
+  number         String      @unique
+  status         String      @default("new")      // new | paid | shipped | done | cancelled
+  customerName   String
+  phone          String
+  email          String?
+  comment        String?
+  deliveryMethod String                            // nova_poshta | pickup
+  city           String?
+  warehouse      String?                           // відділення / поштомат Нової Пошти
+  paymentMethod  String                            // cod (при отриманні) | card (LiqPay)
+  paymentStatus  String      @default("pending")  // pending | paid | failed
+  totalUah       Int
+  createdAt      DateTime    @default(now())
+  items          OrderItem[]
+}
+
+model OrderItem {
+  id           Int     @id @default(autoincrement())
+  order        Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  orderId      Int
+  productId    Int?
+  slug         String
+  title        String
+  unitPriceUah Int
+  quantity     Int
+
+  @@index([orderId])
+}

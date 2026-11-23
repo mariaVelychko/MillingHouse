@@ -54,7 +54,7 @@ export default function Cart() {
             <p className="meta">{pluralCount(units, itemForms.piece)}</p>
             <p className="cart-summary__total"><span>Разом</span><span data-testid="cart-total">{formatMoney(total)}</span></p>
             <p className="meta">Доставку та оплату оберете на наступному кроці.</p>
-            <button type="button" className="button button--primary" disabled>Оформити замовлення</button>
+            <Link className="button button--primary" to="/checkout">Оформити замовлення</Link>
             <button type="button" className="text-link" onClick={clear}>Очистити кошик</button>
           </aside>
         </div>
