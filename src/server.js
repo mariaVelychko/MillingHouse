@@ -5,19 +5,25 @@ const express = require('express');
 
 const CLIENT_DIST = path.join(__dirname, '..', 'client', 'dist');
 
-function createApp(catalog, { orders, clientDist = CLIENT_DIST } = {}) {
+// Фабрика застосунку: каталог передається ззовні, тому сервер легко тестувати без БД
+function createApp(catalog, { orders, admin, clientDist = CLIENT_DIST } = {}) {
   const app = express();
   app.use(express.json());
 
+  // Усі дані для React-клієнта одним запитом: товари, категорії, зображення, контент
   app.get('/api/site', async (req, res, next) => {
     try { res.json(await catalog.buildSiteFixtures()); } catch (e) { next(e); }
   });
   app.use('/api', require('./routes/api')(catalog));
   if (orders) app.use('/api/orders', require('./routes/orders')(orders));
+  if (admin) app.use('/api/admin', require('./routes/admin')(admin.auth, admin.service));
   app.use('/api', (req, res) => res.status(404).json({ error: 'Не знайдено' }));
 
+  // Стилі, шрифти й зображення (спільні для React-клієнта)
   app.use(express.static(path.join(__dirname, 'public')));
 
+  // Зібраний React (npm run build у client/). Будь-який інший GET віддає index.html —
+  // далі маршрутизацію виконує React Router.
   if (fs.existsSync(path.join(clientDist, 'index.html'))) {
     app.use(express.static(clientDist));
     app.use((req, res, next) => {
@@ -37,7 +43,16 @@ function createApp(catalog, { orders, clientDist = CLIENT_DIST } = {}) {
 module.exports = { createApp };
 
 if (require.main === module) {
-  const app = createApp(require('./services/catalogService'), { orders: require('./services/orderService') });
+  const app = createApp(require('./services/catalogService'), {
+    orders: require('./services/orderService'),
+    admin: {
+      auth: require('./lib/adminAuth').createAdminAuth({
+        login: process.env.ADMIN_LOGIN, password: process.env.ADMIN_PASSWORD,
+        secret: process.env.SESSION_SECRET || undefined, secure: process.env.NODE_ENV === 'production',
+      }),
+      service: require('./services/adminService'),
+    },
+  });
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => console.log(`MillingHouse: http://localhost:${PORT}`));
 }

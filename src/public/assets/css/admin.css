@@ -1,0 +1,20 @@
+/* Адмінка: простий робочий вигляд у кольорах сайту */
+.admin-shell { min-height: 100vh; background: var(--wash, #f5f0e8); }
+.admin-bar { display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 12px 24px; background: var(--mh-walnut, #3b2a20); color: #fff; }
+.admin-bar nav { display: flex; gap: 16px; flex: 1; }
+.admin-bar a, .admin-bar .text-link { color: #fff; text-decoration: none; }
+.admin-bar a[aria-current="page"] { text-decoration: underline; }
+.admin-bar button.text-link { color: #fff; }
+.admin-main { width: min(100% - 32px, 1100px); margin: 24px auto 64px; }
+.admin-main h1 { font-family: var(--font-title); }
+.admin-head { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; }
+.admin-card { display: grid; gap: 14px; padding: 24px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper, #fff); }
+.admin-form { max-width: 720px; }
+.admin-login { display: grid; place-items: center; min-height: 100vh; padding: 16px; }
+.admin-login .admin-card { width: min(100%, 380px); }
+.admin-table-wrap { overflow-x: auto; }
+.admin-table { width: 100%; border-collapse: collapse; background: var(--paper, #fff); }
+.admin-table th, .admin-table td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.admin-table th { font-size: .85rem; text-transform: uppercase; letter-spacing: .04em; }
+.admin-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+.admin-details td { background: var(--wash, #f5f0e8); }
